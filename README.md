@@ -2,6 +2,8 @@
 
 Wanna write a paper in markdown and convert it to LaTeX to PDF? This is a good startup template.
 
+![image](https://github.com/user-attachments/assets/e801c665-044f-4458-bc45-c253d993b640)
+
 Before using this template, make sure your already install the `pandoc`, LaTeX, also `Make` in your system.
 
 ## How to use
