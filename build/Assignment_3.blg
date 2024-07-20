@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'build/Assignment_3.blg'
+[33] biber-darwin:340> INFO - === Sat Jul 20, 2024, 21:40:42
+[42] Biber.pm:419> INFO - Reading 'build/Assignment_3.bcf'
+[74] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[81] bbl.pm:660> INFO - Writing 'build/Assignment_3.bbl' with encoding 'UTF-8'
+[81] bbl.pm:763> INFO - Output to build/Assignment_3.bbl
+[81] Biber.pm:131> WARN - The file 'build/Assignment_3.bcf' does not contain any citations!
+[81] Biber.pm:133> INFO - WARNINGS: 1

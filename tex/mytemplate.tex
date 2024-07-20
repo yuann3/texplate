@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
+\usepackage{hyperref}
+\usepackage[backend=biber, style=authoryear, citestyle=authoryear]{biblatex}  % Ensure BibLaTeX is configured for biber backend
+
+% Define \tightlist for Pandoc-generated lists
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Add the bibliography resource (but it seems not working with pendoc)
+\addbibresource{bib/references.bib}
+
+\title{\textbf{\LARGE $title$}}
+\author{$author$ \\ $author_description$}
+\date{$date$}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+  $course$ \\
+  $department$ \\
+  $university$ \\
+\end{center}
+
+\begin{abstract}
+$abstract$
+\end{abstract}
+
+\newpage
+
+$body$ % Main content
+
+\printbibliography[heading=bibintoc, title={References}] % Print the bibliography
+
+\end{document}
+
