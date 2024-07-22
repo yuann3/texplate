@@ -3,16 +3,17 @@
 \usepackage{geometry}
 \geometry{left=3cm,right=3cm,top=2cm,bottom=2cm}
 \usepackage{hyperref}
-\usepackage[backend=biber, style=authoryear, citestyle=authoryear]{biblatex}  % Ensure BibLaTeX is configured for biber backend
+\usepackage[backend=biber, style=authoryear, citestyle=authoryear]{biblatex}
 
 % Define \tightlist for Pandoc-generated lists
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-% Add the bibliography resource (but it seems not working with pendoc)
+% Add the bibliography resource (adjust path as necessary)
 \addbibresource{bib/references.bib}
 
-\title{\textbf{\LARGE $title$}}
+\title{\textbf{\LARGE $title$}\\[0.5em] % Extra space after title
+      \large $subtitle$} % Subtitle part added
 \author{$author$ \\ $author_description$}
 \date{$date$}
 
@@ -37,4 +38,3 @@ $body$ % Main content
 \printbibliography[heading=bibintoc, title={References}] % Print the bibliography
 
 \end{document}
-

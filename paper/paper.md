@@ -1,5 +1,6 @@
 ---
 title: '\textbf{Title}'
+subtitle: 'Subtitle'
 author: Yiyuan Li
 author_description: 'yy@eyuan.me'
 date: \today
